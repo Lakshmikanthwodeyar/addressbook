@@ -93,7 +93,7 @@ public class PropertyLoader
 			{ 
 					in.close (); 
 			} 
-			catch (Throwable ignore) {} 
+			//catch (Throwable ignore) {} 
 		} 
 		if (THROW_ON_LOAD_FAILURE && (result == null)) 
 		{ 
