@@ -79,8 +79,8 @@ public static String getProperty(String propertyName,String strDefault){
 		 LoggerStackTraceUtil.printErrorMessage(e);
 		 propertyValue = ""; 
 	 }
-	 finally { 
-	 }
+	// finally { 
+	 // }
 	 return propertyValue; 
 	 }
 
