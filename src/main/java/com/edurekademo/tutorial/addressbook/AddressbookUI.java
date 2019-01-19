@@ -71,7 +71,7 @@ public class AddressbookUI extends UI {
          */
         newContact.addClickListener(e -> contactForm.edit(new Contact()));
 
-        filter.setInputPrompt("Addressbook Release V11.0");
+        filter.setInputPrompt("Addressbook Release V15.0 PRODUCTION");
         filter.addTextChangeListener(e -> refreshContacts(e.getText()));
 
         contactList
